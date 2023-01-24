@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="cabecera">
+        <div class="container">
+            <nav>
+                <a href="#" class="menu-icon">&#9776; Menu</a>
+                <ul class="enlaces">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#servicios" class="servicios">Servicios</a>
+                        <ul class="menuDesplegable">
+                            <li><a href="#registrar" class="registrar">Registrar</a></li>
+                            <li><a href="#usuarios">Usuarios</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                </ul>
+            </nav>
+
+            <div class="sistema">
+                <h1 class="tituloSistema">Sistema de información para ejidatarios de Morelos, Estado de México</h1>
+                <p class="slogan">Promoviendo la transparencia y la eficiencia en el manejo de los ejidos</p>
+            </div>
+
+            <div class="modal">
+                <div>
+                    <h2>Registrar</h2>
+                </div>
+                <form id="formularioUsuario">
+                    <label for="nombre" class="nameL">Nombre</label>
+                    <input type="text" class="name" id="nombre" name="nombre">
+                    <label for="apellidoP" class="apePl">Apellido paterno</label>
+                    <input type="text" class="apeP" id="apellidoP" name="apellidoP">
+                    <label for="apellidoM" class="apeMl">Apellido materno</label>
+                    <input type="text" class="apeM" id="apellidoM" name="apellidoM">
+                    <label for="email" class="emaill">Email</label>
+                    <input type="email" class="email" id="email" name="email">
+
+                    <button type="submit" class="btnregistrar">Registrar</button>
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <section class="nosotros" id="nosotros">
+        <h2 class="tituloNosotros">Nosotros</h2>
+        <div class="contenedor">
+            <div class="quienesSomos">
+                <h3 class="tituloQuienesSomos">¿Quienes somos?</h3>
+                <p class="parrafo1">Somos un equipo de desarrolladores que trabajamos en colaboración con expertos en
+                    derecho agrario, ejidatarios y organizaciones comunitarias para proporcionar una plataforma en línea
+                    que apoye la administración y el uso sostenible de las tierras ejidales.</p>
+                <p class="parrafo1">Nuestro equipo esta compremetido con la justicia solcial y el desarrollo sostenible,
+                    y valoramos la integridad, responsabilidad y la innovación. Estamos orgullosos de trabajar con una
+                    amplia variedad de clientes y partners y estamos estamos comprometidos a ofrecer un servicio de alta
+                    calidad y a estar siempre abiertos a escuchar y aprender de nuestros usuarios.</p>
+
+            </div>
+
+            <div class="mision">
+                <h3 class="tituloMision">Misión</h3>
+                <p class="parrafo1">Proporcionar a los ejidatarios una plataforma en linea para acceder a información
+                    sobre sus tierras, comunicarse con otros ejidatarios y participar en la toma de decisiones sobre el
+                    uso y la administración de los ejidos y proporcionar recursos para ayudarles a entender sus derechos
+                    y responsabilidades en relacion con sus tierras ejidales.</p>
+            </div>
+
+            <div class="vision">
+                <h3 class="tituloVision">Visión</h3>
+                <p class="parrafo1">Promover el desarrollo sostenible y la justicia social en las comunidades rurales
+                    atraves de la transparencia y la participación en la toma de decisiones sobre el uso de las tierras
+                    ejidales.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contacto" id="contacto">
+        <h2 class="tituloContacto">Contacto</h2>
+        <div class="contenedorContacto">
+            <h3 class="contactenos">Contactanos</h3>
+            <form class="formularioContacto" method="post">
+                <label for="nombre" class="nombrel">Nombre</label>
+                <input type="text" class="nombre" id="nombre" name="user_name">
+                <br>
+                <label for="email" class="emailc">Correo electronico</label>
+                <input type="email" class="emailC" id="email" name="user_email">
+                <br>
+                <label for="mensaje" class="mensajel">Mensaje</label>
+                <textarea class="mensaje" id="mensaje" name="user_menssage"></textarea>
+                <br>
+                <button type="submit" class="btnEnviar">Enviar</button>
+            </form>
+        </div>
+        <div class="informacion">
+            <h4 class="tituloDireccion">Dirección</h4>
+            <p class="direccion">Aqui va la direcccion de la empresa</p>
+            <h4 class="tituloTelefono">Telefono</h4>
+            <p class="telefono">1234567890</p>
+            <h4 class="tituloemailE">Correo electronico</h4>
+            <p class="emailE">empresa@gmail.com</p>
+        </div>
+    </section>
+
+    <footer class="pie">
+        <h4 class="tituloRedes">Siguenos en redes:</h4>
+        <nav class="redes">
+            <a href="https://www.facebook.com">
+                <img class="img1" src="/img/facebook.png" alt="Facebook">
+            </a>
+            <a href="https://twitter.com">
+                <img class="img1" src="/img/twitter1.png" alt="Twitter">
+            </a>
+            <a href="https://www.instagram.com">
+                <img class="img1" src="/img/instagram.png" alt="Instagram">
+            </a>
+        </nav>
+        <p class="copy">Copyright ©2023 Fernando Martinez</p>
+    </footer>
+
+    <script src="/static/main.js"></script>
+</body>
+
+</html>
