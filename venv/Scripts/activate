@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\wuero\OneDrive\Documentos\ProyectoFlask\venv"
+VIRTUAL_ENV="D:\Proyecto_Base_De_Datos\Sistema-Flask\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
